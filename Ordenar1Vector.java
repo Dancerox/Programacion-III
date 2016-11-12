@@ -12,7 +12,7 @@ public class Ordenar1Vector implements OrdenarVector{
         int menor;
         int pos;
         double t_inicio = currentTimeMillis();
-    
+
         for(int i = 0; i < v.length-1; i++){
             menor = v[i];
             pos = i;
